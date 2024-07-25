@@ -1,0 +1,90 @@
+:root {
+	--text-color: white;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: system-ui, sans-serif;
+	color: black;
+	background-color: var(--text-color);
+}
+
+.intro {
+	display: flex;
+}
+.home-menu {
+	max-width: 250px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.bi {
+	color: var(--text-color);
+	text-decoration: none;
+	padding: 20px;
+}
+.logo {
+	padding-top: 45px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.nav-menu {
+	margin-top: 40px;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	max-width: fit-content;
+	margin-left: 40px;
+}
+.navbar {
+	color: var(--text-color);
+	text-decoration: none;
+	font-size: 14px;
+	padding: 20px 10px;
+	margin-bottom: 20px;
+	font-weight: 300;
+}
+.active {
+	background-color: var(--text-color);
+	color: black;
+}
+.bi-active {
+	color: black;
+}
+.navbar:hover {
+	background-color: var(--text-color);
+	color: black;
+}
+.navbar:hover .bi {
+	color: black;
+}
+.main-btn {
+	color: var(--text-color);
+	text-decoration: none;
+	text-transform: uppercase;
+	border: 2px solid var(--text-color);
+	letter-spacing: 1px;
+	font-size: 13px;
+	font-weight: 300;
+	padding: 8px 15px;
+	margin-right: 10px;
+}
+.bg-white {
+	background-color: var(--text-color);
+	color: black;
+}
+
+.footer {
+	color: var(--text-color);
+	font-size: 13px;
+	text-align: center;
+	margin-top: 30px;
+	padding-bottom: 50px;
+}
+.footer em {
+	color: #aaa;
+	font-style: normal;
+	font-size: 13px;
+}
